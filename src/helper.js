@@ -1,5 +1,5 @@
 function createParagraph(text){
-    const p = document.createElement(p);
+    const p = document.createElement('p');
     
     p.textContent = text;
     
@@ -7,7 +7,7 @@ function createParagraph(text){
 }
 
 function createImage(url, alt){
-    const img = document.createElement('img');
+    const img = new Image();
     
     img.src = url;
     img.alt = alt;
