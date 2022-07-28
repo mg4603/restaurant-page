@@ -22,7 +22,7 @@ module.exports = {
             
         ],
     },
-    optimization: {
-        runtimeChunk: 'single',
-    },
+    // optimization: {
+    //     runtimeChunk: 'single',
+    // },
 }
