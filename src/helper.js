@@ -22,4 +22,11 @@ function createH2(text){
 
     return h2;
 }
-export {createParagraph, createImage, createH2};
+
+function createDiv(){
+    const div = document.createElement('div');
+
+    return div;
+}
+
+export {createParagraph, createImage, createH2, createDiv};
