@@ -1,3 +1,4 @@
+const { userInfo } = require('os');
 const path = require('path');
 
 module.exports = {
@@ -9,9 +10,14 @@ module.exports = {
     modules:{
         rules:[
             {
+                test: /\.css$/i,
+                use: ['style-loader', 'css-loader'],
+            },
+            {
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
                 type: 'asset/resource',
             },
+            
         ],
     },
 }
