@@ -6,4 +6,12 @@ function createParagraph(text){
     return p;
 }
 
-export {createParagraph};
+function createImage(url, alt){
+    const img = document.createElement('img');
+    
+    img.src = url;
+    img.alt = alt;
+
+    return img
+}
+export {createParagraph, createImage};
