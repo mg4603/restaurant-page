@@ -1,5 +1,5 @@
 import { createParagraph, createImage, createDiv } from "./helper";
-import homeImage from './home-img.jpg';
+import homeImage from './images/home-img.jpg';
 
 export default function homepage(){
     const container = createDiv();
