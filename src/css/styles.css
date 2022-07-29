@@ -2,10 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;   
 }
 .site{
     background: url('../images/background.jpg');
     background-size: 100vw 100vh;
+    filter: brightness(50%);
 }
 .header{
     display: flex;
@@ -18,7 +21,7 @@
     gap: 3vw;
 }
 .pg-body{
-    margin: 8vh 0;
+    margin: 9vh 0;
     height: 70vh;
     overflow: hidden;
     display: flex;
