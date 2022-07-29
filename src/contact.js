@@ -1,4 +1,4 @@
-import {createDiv, createH2, createParagraph, createImage} from './helper';
+import {createDiv,  createParagraph, createImage} from './helper';
 import emailIcon from './images/email.svg';
 import phoneIcon from './images/phone.svg';
 import mobileIcon from './images/cellphone.svg';
