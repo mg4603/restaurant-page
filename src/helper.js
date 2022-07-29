@@ -50,4 +50,13 @@ function createH1(text){
     return h1;
 }
 
-export {createH1, createParagraph, createImage, createH2, createDiv, createUl, createLi};
+function createAnchor(href, text){
+    const a = document.createElement;
+
+    a.href = href;
+    a.textContent = text;
+
+    return a;
+}
+
+export {createH1, createParagraph, createAnchor, createImage, createH2, createDiv, createUl, createLi};
