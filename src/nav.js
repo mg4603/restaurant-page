@@ -1,4 +1,4 @@
-import { createDiv, createUl, createLi} from "./helper";
+import { createUl, createLi} from "./helper";
 
 function navItem(text){
     const item = createLi();
