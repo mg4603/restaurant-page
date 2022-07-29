@@ -5,6 +5,7 @@
 }
 .site{
     background: url('../images/background.jpg');
+    background-size: 100vw 100vh;
 }
 .header{
     display: flex;
