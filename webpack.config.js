@@ -1,4 +1,3 @@
-const { userInfo } = require('os');
 const path = require('path');
 
 module.exports = {
