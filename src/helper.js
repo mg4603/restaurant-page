@@ -41,4 +41,13 @@ function createLi(){
     return li;
 }
 
-export {createParagraph, createImage, createH2, createDiv, createUl, createLi};
+
+function createH1(text){
+    const h1 = document.createElement('h1');
+
+    h1.textContent = text;
+
+    return h1;
+}
+
+export {createH1, createParagraph, createImage, createH2, createDiv, createUl, createLi};
