@@ -50,11 +50,11 @@ function createH1(text){
     return h1;
 }
 
-function createAnchor(href, text){
-    const a = document.createElement;
+function createAnchor(href, node){
+    const a = document.createElement('a');
 
     a.href = href;
-    a.textContent = text;
+    a.appendChild(node);
 
     return a;
 }
