@@ -7,13 +7,17 @@
 }
 .site{
     background: url('../images/background.jpg');
-    background-size: 100vw 100vh;
-    filter: brightness(50%);
+    background-size: 100vw 97vh;
+}
+.header,
+.footer{
+    background-color: rgba(0, 0, 0, 0.6);
 }
 .header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3vh;
 }
 .header ul{
     display: flex;
@@ -21,25 +25,53 @@
     gap: 3vw;
 }
 .pg-body{
-    margin: 9vh 0;
-    height: 70vh;
+    margin: 7vh 0;
+    height: 67vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.home-page{
+.home-page,
+.contact-card{
     padding: 30vh 10vw;
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+.home-page{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.contact-card{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.contact-card .contact-field{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vh;
+}
+.contact-card .contact-field .contact-label{
+    display: flex;
+    gap: 0.7vw;
 }
 .home-page img{
     width: 25vw;
     height: 25vw;
     border-radius: 50%;
+}
+.contact-field .contact-label{
+    display: flex;
+}
+.contact-field .contact-label img{
+    width: 2vw;
+    height: 2vw;
+    filter: invert(1) brightness(80%);
 }
 
 .footer{
@@ -47,8 +79,10 @@
     justify-content: center;
     align-items: center;
     gap: 1vw;
+    padding: 1vh;
 }
 .footer img{
     width: 20px;
     height: 20px;
+    filter: invert(1) brightness(80%);
 }
