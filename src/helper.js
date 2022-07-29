@@ -29,4 +29,16 @@ function createDiv(){
     return div;
 }
 
-export {createParagraph, createImage, createH2, createDiv};
+function createUl(){
+    const uList = document.createElement('ul');
+    
+    return uList;
+}
+
+function createLi(){
+    const li = document.createElement('li');
+
+    return li;
+}
+
+export {createParagraph, createImage, createH2, createDiv, createUl, createLi};
