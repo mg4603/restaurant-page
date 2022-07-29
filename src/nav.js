@@ -5,7 +5,7 @@ function navItem(text){
 
     item.classList.add('nav-item');
 
-    item.textContent(text);
+    item.textContent = text;
 
     return item;
 }
