@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+.site{
+    background: url('../images/background.jpg');
+}
 .header{
     display: flex;
     flex-direction: column;
@@ -13,4 +15,15 @@
     display: flex;
     list-style: none;
     gap: 3vw;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+.footer img{
+    width: 20px;
+    height: 20px;
 }
