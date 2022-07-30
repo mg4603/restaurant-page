@@ -81,6 +81,7 @@
     grid-template-rows: repeat(2, 1fr);
     overflow: auto;
     resize: both;
+    gap: 2vw;
 }
 
 .menu img{
@@ -98,6 +99,13 @@
 }
 .menu p:last-child{
     font-size: .5rem;
+}
+.menu-item{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 2vw;
+}
+.menu-item-hovered{
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer{
