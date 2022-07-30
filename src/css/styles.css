@@ -34,7 +34,8 @@
     justify-content: center;
 }
 .home-page,
-.contact-card{
+.contact-card,
+.menu{
     padding: 30vh 10vw;
     background-color: rgba(0, 0, 0, 0.7);
 }
@@ -72,6 +73,31 @@
     width: 2vw;
     height: 2vw;
     filter: invert(1) brightness(80%);
+}
+.menu{
+    padding: 4vh 8vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    overflow: auto;
+    resize: both;
+}
+
+.menu img{
+ width: 100px;
+ height: 100px;
+}
+.menu h2{
+    font-size: 1rem;
+}
+.menu p{
+    font-size: .7rem;
+}
+.menu h2, p{
+    filter: brightness(80%);
+}
+.menu p:last-child{
+    font-size: .5rem;
 }
 
 .footer{
