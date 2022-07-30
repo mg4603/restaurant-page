@@ -25,7 +25,9 @@
     list-style: none;
     gap: 3vw;
 }
-
+.nav-item{
+    cursor: pointer;
+}
 .nav-item-hover{
     margin-top: -1vh;
 }
