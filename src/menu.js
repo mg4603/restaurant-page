@@ -19,6 +19,14 @@ function createItem(img, alt, title, text, credit){
     card.appendChild(createH2(title));
     card.appendChild(createParagraph(text));
     card.appendChild(createParagraph(credit))
+
+    card.addEventListener('mouseover', ()=>{
+        card.classList.add('menu-item-hovered');
+    });
+    card.addEventListener('mouseout', ()=>{
+        card.classList.remove('menu-item-hovered');
+    })
+
     return card;
 }
 
