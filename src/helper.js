@@ -59,4 +59,11 @@ function createAnchor(href, node){
     return a;
 }
 
-export {createH1, createParagraph, createAnchor, createImage, createH2, createDiv, createUl, createLi};
+function deleteAllChildren(node){
+    while(node.hasChildNodes()){
+        node.removeChild(node.lastChild);
+    }
+
+}
+
+export {deleteAllChildren, createH1, createParagraph, createAnchor, createImage, createH2, createDiv, createUl, createLi};
